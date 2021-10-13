@@ -1,0 +1,55 @@
+<messagebundle>
+    <msg name='gadget.taskManagementGadget.message.title'>Webex Instant Meetings</msg>
+    <msg name='gadget.taskManagementGadget.message.signOutError'>Sign Out failed</msg>
+    <msg name='gadget.taskManagementGadget.message.mrdID'>MRD ID</msg>
+    <msg name='gadget.taskManagementGadget.message.userID'>User ID</msg>
+    <msg name='gadget.taskManagementGadget.message.user'>User</msg>
+    <msg name='gadget.taskManagementGadget.message.firstName'>First Name</msg>
+    <msg name='gadget.taskManagementGadget.message.lastName'>Last Name</msg>
+    <msg name='gadget.taskManagementGadget.message.role'>Role</msg>
+    <msg name='gadget.taskManagementGadget.message.extension'>Extension</msg>
+    <msg name='gadget.taskManagementGadget.message.userState'>Current User State</msg>
+    <msg name='gadget.taskManagementGadget.message.readyButton'>Ready</msg>
+    <msg name='gadget.taskManagementGadget.message.notReadyButton'>Not Ready</msg>
+    <msg name='gadget.taskManagementGadget.message.dialog'>Dialog</msg>
+    <msg name='gadget.taskManagementGadget.message.logout'>Logout</msg>
+    <msg name='gadget.taskManagementGadget.message.dialogId'>Dialog ID</msg>
+    <msg name='gadget.taskManagementGadget.message.mediaType'>Media Type</msg>
+    <msg name='gadget.taskManagementGadget.message.mediaState'>Media State</msg>
+    <msg name='gadget.taskManagementGadget.message.login'>Login</msg>
+    <msg name='gadget.taskManagementGadget.message.signin'>Sign In</msg>
+    <msg name='gadget.taskManagementGadget.message.signout'>Sign Out</msg>
+    <msg name='gadget.taskManagementGadget.message.interruptible'>Interruptible</msg>
+    <msg name='gadget.taskManagementGadget.message.notInterruptible'>Not Interruptible</msg>
+    <msg name='gadget.taskManagementGadget.message.media'>Media</msg>
+    <msg name='gadget.taskManagementGadget.message.closeTaskButton'>Close</msg>
+    <msg name='gadget.taskManagementGadget.message.acceptTaskButton'>Accept</msg>
+    <msg name="Invalid 'requestedAction' specified for task">Invalid action</msg>
+    <msg name="E_ARM_STAT_LOGIN_NOT_ALLOWED_FOR_APP_PATH">Sign in not allowed for this media.</msg>
+    <msg name="E_ARM_STAT_AGENT_ALREADY_LOGGED_IN">The Agent is already signed into this media.</msg>
+    <msg name="gadget.taskManagementGadget.message.missingMrdIdParam">Gadget is missing required parameters, please contact your system administrator.</msg>
+    <msg name="gadget.taskManagementGadget.message.dialogState">Dialog State</msg>
+    <msg name="gadget.taskManagementGadget.message.routable">Offer more dialogs</msg>
+    <msg name="gadget.taskManagementGadget.message.routableTooltip">Toggles the mode of the media channel between ROUTABLE and NOT_ROUTABLE.  By unchecking this the Agent will not receive anymore Dialogs for this media channel.</msg>
+
+    <!-- user states -->
+    <msg name='READY'>Ready</msg>
+    <msg name='NOT_READY'>Not Ready</msg>
+    <msg name='RESERVED'>Reserved</msg>
+    <msg name='ACTIVE'>Active</msg>
+    <msg name='WORK_READY'>Work Ready</msg>
+    <msg name='PAUSED'>Paused</msg>
+    <msg name='INTERRUPTED'>Interrupted</msg>
+    <msg name='WORK'>Work</msg>
+
+    <!--dialog actions-->
+    <msg name='ACCEPT'>Accept</msg>
+    <msg name='REJECT'>Reject</msg>
+    <msg name='WRAP_UP'>Wrap Up</msg>
+    <msg name='CLOSE'>Close</msg>
+    <msg name='UPDATE_CALL_DATA'>Update Call Data</msg>
+    <msg name='PAUSE'>Pause</msg>
+    <msg name='RESUME'>Resume</msg>
+
+
+</messagebundle>

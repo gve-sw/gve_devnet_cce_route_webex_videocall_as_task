@@ -1,0 +1,167 @@
+/**
+ * Default attributes for gadget body.
+ */
+
+.error {
+  color: #b94a48;
+  background-color: #f2dede;
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.tabbable {
+    margin: 10px;
+    height: 300px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    display:none;
+}
+
+.nav-tabs {
+    margin: 0;
+}
+
+.tab-content {
+    height: 262px;
+    border-left: 1px solid #ccc ; 
+    border-right: 1px solid #ccc;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.tab-pane {
+    padding-top:10px;
+    padding-bottom: 10px;
+    overflow: auto;
+    height: 242px;
+}
+
+.nav-tabs > li .close {
+    margin: -2px 0 0 10px;
+    font-size: 18px;
+}
+.marginBottom {
+    margin-bottom :1px !important;
+}
+.operationDiv {
+    padding:5px 10px 5px 5px;
+}
+.operationDivWrapper {
+    margin-top:-1px;
+}
+.leftMenu {
+    height :70%;
+    background-color: #E6E6E6;
+    border-right: 2px solid #BFBFBF;
+}
+
+.allowable-actions {
+    padding: 10px;
+    width: 100%;
+    display:inline-block;
+    box-sizing:border-box;
+}
+
+.align-right {
+    float: right;
+    margin-right: 10px;
+}
+
+.align-left {
+    float: left;
+    margin-right: 5px;
+}
+
+.row-header {
+    min-height: 26px;
+    width: 100%;
+    line-height: 26px;
+    padding: 4px 0;
+    border-bottom: 1px solid #D7D7D8;
+    border-left: 1px solid transparent !important;
+    background: #F5F5F6;
+}
+
+#mediaName {
+    margin-top:3px;
+    margin-left: 12px;
+}
+
+.sign-in-out-button {
+    float:left;
+}
+
+#state-btn {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid transparent;
+    filter: none;
+    outline: medium none;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+#state-btn:hover, #state-btn:active, #state-btn:focus {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjMiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+
+    /* we should probably use less here... */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,0.3) 50%), to(rgba(230, 230, 230, 0)));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.3) 50%, rgba(230, 230, 230, 0));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,0.3) 50%, rgba(230, 230, 230, 0));
+    background-image: -ms-linear-gradient(rgba(255,255,255,0.3) 50%, rgba(230, 230, 230, 0));
+    background-image: -o-linear-gradient(rgba(255,255,255,0.3) 50%, rgba(230, 230, 230, 0));
+    background-image: linear-gradient(rgba(255,255,255,0.3) 50%, rgba(230, 230, 230, 0));
+
+    border: 1px solid #ccc;
+}
+
+.btn-inverse, .btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled], .btn-inverse:focus {
+    color: #fff;
+    background-color: #222;
+    *background-color: #151515
+}
+.btn-inverse:active, .btn-inverse.active {
+    background-color: #080808 \9
+}
+
+#mediaSummary {
+    padding-left: 10px;
+}
+
+.state-icon {
+    background-image: url("images/sprite_presence.png");
+    background-repeat: no-repeat;
+}
+
+.state-icon-green {
+    background-position: 9px 6px;
+}
+
+.state-icon-red {
+    background-position: 9px -34px;
+}
+
+.state-icon-white {
+    background-position: 9px -54px;
+}
+
+.state-icon-yellow {
+    background-position: 9px -14px;
+}
+
+#state-icon-status {
+    line-height: 18px;
+    padding: 4px 0 0 25px
+}
+
+/* Override Bootstrap tooltip width and text alignment */
+.tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 350px;
+    text-align: left;
+}

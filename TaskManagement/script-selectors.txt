@@ -1,0 +1,1 @@
+Replace this line with a comma separated list of your transfer target script selectors(example: chatScriptSelector,emailScriptSelector,etc.)

@@ -1,0 +1,14 @@
+{
+  "name": "task-sample",
+  "version": "0.1.0",
+  "description": "Proxy server for task sample",
+  "main": "TaskProxy.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "http-proxy": "~0.10.3",
+    "node-static": "~0.7.2",
+    "optimist": "~0.6.0",
+    "request": "^2.88.2"
+  },
+  "readmeFilename": "readme.txt"
+}
